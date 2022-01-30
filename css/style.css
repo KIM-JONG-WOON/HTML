@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+* { 
+    margin: 0; padding: 0;
+    font-size: 14px; box-sizing: border-box;
+}
+ul li { list-style: none;}
+a { text-decoration: none;}
+
+
+
+
+#topCon {  }
+#tc_Inner { max-width: 1600px;
+            margin: 0 auto; display: flex; height: 55px;
+          flex-flow: row nowrap; justify-content: flex-start;}
+#tc_Inner button { width: 100px; height: 30px; border-radius: 15%;
+                   background-color: skyblue; margin: auto 40px;}
+#textBox { width: 400px; margin: 0 auto; overflow: hidden; position: relative;}
+#topCon_u { height: 45px; background-color: tomato; width: 1200px;
+            margin: 5px 0; position: absolute; left: 0px;
+            display: inline-flex;}
+#topCon_u li { text-align: center; line-height: 45px; width: 400px; 
+              }
+            
+
+
+
+
+
+#topcon2 { height: 60px; background-color: yellow;}
+#tc_Inner2 { max-width: 1600px; margin: 0 auto; 
+             display: flex; height: 60px;  flex-flow: row nowrap; 
+             justify-content: right;}
+#logo { width: 50px; height: 50px; margin: 5px 40px;}
+#logo_ul_1{ display: flex; flex-flow: row nowrap;
+            }
+#logo_ul_1 li { line-height: 60px; margin: 0 20px; width: 100px;
+                text-align: center;}
+
+#logo_ul_2 { display: flex; flex-flow: row nowrap;
+             justify-content: flex-end; width: 1000px; 
+             height: 100%; align-items: center;
+             margin: 0 20px;}
+#logo_ul_2 li { margin: 8px;}
+#logo_ul_2 li:nth-child(1) { border-radius: 50%; width: 30px; height: 30px;
+                             background-color: #fff; left: 50%; top: 50%;}
+#logo_ul_2 li:nth-child(1)>a { left: 50%;}
+
+
+
+
+#wrap { max-width: 1600px; margin: 0 auto;}
+
+#visual { overflow: hidden;}
+#vu_inner { max-width: 1600px;}
+#visual_img { display: flex; width: 300%; height: 500px; overflow: hidden;}
+#visual_img li { width: 33.3333%; position: relative; height: 500px; text-align: right;}
+#visual_img li:nth-child(1) { background: url("../img/visual1.JPG") no-repeat right center/ cover;}
+#visual_img li a img { height: 100%; object-fit: cover;}
+#visual_img .caption { position: absolute; top: 135px; left: 80px;
+                       width: 40%;}
+                       .caption { background-color: rgba(0, 0, 0, 0.5);
+                     padding: 10px;}
+.caption h1 { font-size: 40px; color: #fff;}
+.caption h3 { font-size: 20px; color: #fff;}
+.caption button { background-color: #ddd; padding: 12px 20px;
+                  border: none; margin-top: 30px; border-radius: 10%;}
+
+
+#content { }
+#iconBox { height: 300px; background: #fff; }
+#iconBox ul { display: flex; width: 70%; margin: 0 auto;}
+#iconBox ul li { display: flex; flex-flow: row nowrap; 
+                 justify-content: space-around; align-items: center;}
+#iconBox ul li a { text-align: center; margin-top: 70px;}
+#iconBox ul li a img { width: 100%;}
+
+
+#iconBox2 { width: 100%; height: 200px; 
+    background: url(../img/content_3.JPG) no-repeat center/ cover;
+    position: relative;}
+#iconBox2 p { color: #fff; font-size: 20px; 
+              position: absolute; left: 100px; top: 60px;}
+#iconBox2 button { font-size: 20px; position: absolute;
+                   left: 100px; top: 120px; padding: 10px 10px;}
+
+
+#iconBox3 { max-width: 1600px; }
+#iconBox3 h2 { font-size: 32px; font-weight: normal;
+               margin: 50px 100px; padding-top: 30px;}
+#iconBox3 #vdBox { width: 100%; font-size: 0; }
+#vdBox video { width: 46%; margin: 0 2%; display: inline-block;}
+
+
+
+
+#iconBox4 { max-width: 1600px; max-height: 697px; overflow: hidden;}
+#iconBox4 h2 { font-size: 32px; font-weight: normal; 
+    margin: 50px 100px; padding-top: 30px;}
+.ib_List { width: 150%;  display: flex; height: 521px; }
+.ib_List li { width: 18%; margin: 0 1%; height: 100%; }
+.ib_List li #ib_pic { width: 334px; height: 280px; border: 1px solid rgba(51, 50, 50, 0.3); position: relative;
+                      margin: 0 auto; overflow: hidden;}
+.ib_List li #ib_pic span { border: none; width: 70px; height: 30px; position: absolute;
+                           top: 8px; right: 20px; z-index: 999; background-color: rgb(224, 172, 0);
+                           border-radius: 5px; text-align: center; line-height: 30px;}
+.ib_List li #ib_pic img { width: 100%; object-fit: cover;}
+
+
+#ib_con { width: 100%; height: 42px; display: inline-block; text-align: left;
+          margin: 3% 0; font-size: 14px; }
+.ib_List li p { font-size: 24px; font-weight: bold; }
+.ib_List li button { font-size: 18px; width: 100%; height: 12%; background-color: tomato;
+                     margin: 2% 0; border: none; border-radius: 5px;}
+
+
+
+
+
+footer { height: 600px;  background-color: rgb(32, 29, 72); color: #fff;}
+footer .ft_inner { max-width: 1600px; margin: 0 auto; height: 100%;}
+footer #ft_list1 { width: 100%; display: flex; height: 50%;}
+footer #ft_list1_1 { width: 15%; display: flex;
+                     flex-flow: column nowrap; margin: 0 auto;}
+footer #ft_logo { width: 100px; margin: 20px 0;}
+footer #ft_list1 button{ background-color: darkblue;  border-radius: 5px; color: #fff;
+                        line-height: 50px; height: 50px; width: 130px; display: flex;
+                         justify-content: center; border-style: none;}
+footer #ft_list1 button img { width: 30px; margin: auto 7px;}
+
+footer #ft_list1_2 { width: 85%;}
+footer #ft_list1_2_1 { width: 80%; display: flex;
+                       margin: 20px auto; justify-content: space-between;}
+
+#ft_list1_2_1 h4 { margin: 15px 0 ;}
+#ft_list1_2_1 ul { }
+#ft_list1_2_1 ul li { margin: 8px 0;}
+
+
+footer #ft_list2 { height: 30%;}
+footer #ft_list2 ul { display: flex; justify-content: space-between;}
+footer #ft_list2 ul li:nth-child(1) { display: flex; flex-flow: column;}
+footer #ft_list2 ul li input { padding: 20px 10px; margin: 20px  0;}
+footer #ft_list2 ul li:nth-child(2) { }
+
+
+footer #ft_list3 { height: 20%; }
+footer #ft_list3 ul { display: flex; flex-flow: row;}
+footer #ft_list3 ul li { margin: 10px 20px;}
+footer #ft_list3 ul li:nth-child(1){ margin-left: 0px;}
